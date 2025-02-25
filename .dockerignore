@@ -1,0 +1,6 @@
+.pnpm-store
+.git
+README.md
+*.log
+logs
+dist

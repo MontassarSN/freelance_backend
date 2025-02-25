@@ -1,0 +1,11 @@
+{
+  "confirmEmail": "Please confirm your email",
+  "confirm-email-text1": "Thank you for signing up.",
+  "confirm-email-text2": "Please click the button below to activate your account.",
+  "confirm-email-text3": "If you did not sign up, please ignore this email.",
+  "resetPassword": "Reset your password",
+  "reset-password-text1": "We received a request to reset your password.",
+  "reset-password-text2": "Click the button below to reset your password.",
+  "reset-password-text3": "If you did not request a password reset, please ignore this email.",
+  "reset-password-text4": "This link will expire in 24 hours."
+}

@@ -1,0 +1,20 @@
+{
+  "approved_event_participant_title": "Votre participation a été approuvée",
+  "approved_event_participant_body": "Félicitations, votre participation à l'événement a été approuvée",
+  "rejected_event_participant_title": "Votre participation a été rejetée",
+  "rejected_event_participant_body": "Malheureusement, votre participation à l'événement a été rejetée",
+  "expired_event_participant_title": "Votre participation a expiré",
+  "expired_event_participant_body": "Votre participation en attente a expiré",
+  "new_event_participant_title": "Nouveau participant à l'événement",
+  "new_event_participant_body": "Un nouveau participant a rejoint votre événement",
+  "event_updated_title": "Événement mis à jour",
+  "event_updated_body": "Les détails de l'événement ont été mis à jour",
+  "new_event_title": "Nouvel événement",
+  "new_event_body": "Un nouvel événement a été publié",
+  "admin_new_event_title": "Nouvel événement en attente d'approbation",
+  "admin_new_event_body": "Un nouvel événement requiert votre vérification et approbation",
+  "admin_event_update_title": "Notification de mise à jour d'événement",
+  "admin_event_update_body": "Un événement a été mis à jour et nécessite votre attention",
+  "new_follower_title": "Nouveau suiveur",
+  "new_follower_body": "Vous avez un nouveau suiveur"
+}

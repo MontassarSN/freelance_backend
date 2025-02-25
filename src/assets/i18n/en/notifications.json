@@ -1,0 +1,20 @@
+{
+  "approved_event_participant_title": "Your participation was approved",
+  "approved_event_participant_body": "Congratulations, your participation in the event has been approved",
+  "rejected_event_participant_title": "Your participation was rejected",
+  "rejected_event_participant_body": "Unfortunately, your participation in the event has been rejected",
+  "expired_event_participant_title": "Your participation has expired",
+  "expired_event_participant_body": "Your pending participation has expired",
+  "new_event_participant_title": "New event participant",
+  "new_event_participant_body": "A new participant has joined your event",
+  "event_updated_title": "Event updated",
+  "event_updated_body": "The event details have been updated",
+  "new_event_title": "New event",
+  "new_event_body": "A new event has been posted",
+  "admin_new_event_title": "New event awaiting approval",
+  "admin_new_event_body": "A new event requires your review and approval",
+  "admin_event_update_title": "Event update notification",
+  "admin_event_update_body": "An event has been updated and requires your attention",
+  "new_follower_title": "New follower",
+  "new_follower_body": "You have a new follower"
+}

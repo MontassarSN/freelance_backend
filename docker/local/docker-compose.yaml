@@ -1,0 +1,60 @@
+networks:
+  local-network:
+    external: true
+    name: local-network
+    attachable: true
+volumes:
+  postgres-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./postgres-data
+x-common-config: &common-config
+  networks:
+    - local-network
+services:
+  postgres:
+    <<: *common-config
+    image: bitnami/postgresql:16.2.0-debian-12-r17
+    ports:
+      - 127.0.0.1:${DATABASE_PORT}:5432
+    volumes:
+      - postgres-data:/bitnami/postgresql
+    environment:
+      POSTGRES_USER: ${DATABASE_USERNAME}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+  maildev:
+    <<: *common-config
+    build:
+      context: ../../
+      dockerfile: ./docker/local/maildev.Dockerfile
+    ports:
+      - 127.0.0.1:${MAIL_CLIENT_PORT}:1080
+      - 127.0.0.1:${MAIL_PORT}:1025
+  adminer:
+    <<: *common-config
+    image: adminer
+    restart: always
+    ports:
+      - 127.0.0.1:8080:8080
+  api:
+    <<: *common-config
+    build:
+      context: ../../
+      dockerfile: ./docker/local/Dockerfile
+    ports:
+      - 127.0.0.1:${API_PORT}:${API_PORT}
+    depends_on:
+      - postgres
+      - maildev
+    volumes:
+      - ../../:/app
+      - /app/node_modules
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+{
+  "confirmEmail": "Veuillez confirmer votre adresse e-mail",
+  "confirm-email-text1": "Merci de vous être inscrit.",
+  "confirm-email-text2": "Veuillez cliquer sur le bouton ci-dessous pour activer votre compte.",
+  "confirm-email-text3": "Si vous ne vous êtes pas inscrit, veuillez ignorer cet e-mail.",
+  "resetPassword": "Réinitialisez votre mot de passe",
+  "reset-password-text1": "Nous avons reçu une demande de réinitialisation de votre mot de passe.",
+  "reset-password-text2": "Cliquez sur le bouton ci-dessous pour réinitialiser votre mot de passe.",
+  "reset-password-text3": "Si vous n'avez pas demandé de réinitialisation du mot de passe, veuillez ignorer cet e-mail.",
+  "reset-password-text4": "Ce lien expirera dans 24 heures."
+}

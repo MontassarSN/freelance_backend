@@ -1,0 +1,20 @@
+{
+  "approved_event_participant_title": "تمت الموافقة على مشاركتك",
+  "approved_event_participant_body": "تهانينا، تمت الموافقة على مشاركتك في الحدث",
+  "rejected_event_participant_title": "تم رفض مشاركتك",
+  "rejected_event_participant_body": "للأسف، تم رفض مشاركتك في الحدث",
+  "expired_event_participant_title": "انتهت صلاحية مشاركتك",
+  "expired_event_participant_body": "مشاركتك المعلقة انتهت صلاحيتها",
+  "new_event_participant_title": "مشارك جديد في الحدث",
+  "new_event_participant_body": "انضم مشارك جديد إلى حدثك",
+  "event_updated_title": "تم تحديث الحدث",
+  "event_updated_body": "تم تحديث تفاصيل الحدث",
+  "new_event_title": "حدث جديد",
+  "new_event_body": "تم نشر حدث جديد  ",
+  "admin_new_event_title": "حدث جديد ينتظر الموافقة",
+  "admin_new_event_body": "يحتاج حدث جديد إلى مراجعتك والموافقة عليه",
+  "admin_event_update_title": "إشعار بتحديث الحدث",
+  "admin_event_update_body": "تم تحديث حدث ويتطلب اهتمامك",
+  "new_follower_title": "متابع جديد",
+  "new_follower_body": "لديك متابع جديد"
+}

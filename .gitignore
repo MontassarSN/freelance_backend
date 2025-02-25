@@ -1,0 +1,11 @@
+node_modules
+logs
+docker/local/postgres-data
+docker/prod/postgres-data
+docker/local/.dockerignore
+docker/prod/.dockerignore
+dist
+docker/prod/.env
+docker/local/.env
+.env
+public
