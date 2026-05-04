@@ -2,7 +2,6 @@ import {
   AuthProvidersEnum,
   AuthStatusEnum,
   NewUser,
-  RolesEnum,
 } from '../infrastructure/entity';
 import {
   IsBoolean,
@@ -15,13 +14,14 @@ import {
   IsUrl,
   ValidateIf,
 } from 'class-validator';
+import { UserRoleEnum } from 'src/app/shared/types/enums.types';
 import { TranslateDto } from 'src/app/shared/utils/TranslateDto';
 
 export class CreateUserDto implements NewUser {
-  @IsEnum(RolesEnum, {
+  @IsEnum(UserRoleEnum, {
     message: TranslateDto('IsEnum'),
   })
-  role!: RolesEnum;
+  role!: UserRoleEnum;
 
   @IsEnum(AuthProvidersEnum, {
     message: TranslateDto('IsEnum'),
