@@ -7,5 +7,5 @@ docker/prod/.dockerignore
 dist
 docker/prod/.env
 docker/local/.env
-.env
 public
+config.bat
