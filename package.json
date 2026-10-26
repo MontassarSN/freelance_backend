@@ -4,10 +4,10 @@
   "packageManager": "pnpm@8.10.2",
   "private": true,
   "scripts": {
-    "build": "node api.js && nest build",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "dev": "node api.js && ts-node-dev -r tsconfig-paths/register -r dotenv/config src/app/main.ts",
-    "start": "node api.js && node -r dotenv/config dist/app/main.js",
+    "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config src/app/main.ts",
+    "start": "node -r dotenv/config dist/app/main.js",
     "setup:staging": "scripts/setup-staging.sh",
     "setup:dev": "scripts/setup-dev.sh",
     "local": "scripts/setup-local.sh",
